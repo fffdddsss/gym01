@@ -1,0 +1,197 @@
+<html>
+
+<head>
+    <title>my first project</title>
+    <style>
+        body {
+            background: url("gym.jpg");
+            background-size: cover;
+        }
+
+        .left {
+            color: aliceblue;
+            position: absolute;
+            left: 34px;
+            /* border: 3px solid yellow;*/
+            display: inline-block;
+            top: 12px;
+            width: 22%;
+            cursor: pointer;
+
+        }
+
+        .left img {
+            font-family: 'Baloo Bhai', cursive;
+            width: 90px;
+            float: left;
+            /* border: 2px solid yellow;*/
+
+
+        }
+
+        .mid {
+            color: aliceblue;
+            /*border: 3px solid yellow;*/
+            width: 47%;
+            margin: 30px auto;
+
+
+        }
+
+        .right {
+            font-family: 'Baloo Bhai', cursive;
+            color: aliceblue;
+            /*border: 3px solid yellow;*/
+            display: inline-block;
+            position: absolute;
+            right: 74px;
+            top: 9px;
+            font-size: 50%;
+            margin: 20px;
+            border-radius: 5px;
+            padding: 6px 14px;
+
+        }
+
+        .ull li {
+            display: inline-block;
+            font-size: 25px;
+
+
+        }
+
+        .ull li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+
+        .ull li a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .div {
+            font-family: 'Baloo Bhai', cursive;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            font-size: 25px;
+            padding: 20px 22px;
+            font-style: oblique;
+
+
+        }
+
+        .div:hover {
+            color: yellow;
+        }
+
+        .from {
+            /*border: 2px solid green;*/
+            margin: 106px -50px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 10px;
+
+        }
+
+        .from h1 {
+            font-family: 'Baloo Bhai', cursive;
+            color: white;
+            text-align: center;
+            display: block;
+
+        }
+
+        .btn {
+            border: 1px solid green;
+            border-radius: 5px;
+            background-color: black;
+            padding: 4px 21px;
+            color: white;
+            display: block;
+            margin: auto;
+            width: 50%;
+            font-size: 100%;
+        }
+
+        .input input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            padding: 3px;
+            width: 50%;
+            border: 2px solid black;
+            margin: 3px auto;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .btn:hover {
+            font-family: 'Baloo Bhai', cursive;
+            background-color: yellow;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://pngimg.com/d/fitness_PNG208.png" alt="">
+            <div class="div">
+                Subrata Fitness
+            </div>
+
+        </div>
+        <div class="mid">
+            <ul class="ull">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+
+            <input type="search" placeholder="Subrata Fitness">
+            <input type="submit">
+
+        </div>
+    </header>
+    <div class="from">
+        <h1>Join The Best GYM</h1>
+        <form action="gym.phpy">
+            <div class="input">
+                <input type="text" placeholder="enter your name"><br>
+
+            </div>
+            <div class="input">
+                <input type="text" placeholder="enter your Age"><br>
+
+            </div>
+            <div class="input">
+                <input type="text" placeholder="enter your Locality"><br>
+
+            </div>
+            <div class="input">
+                <input type="text" placeholder="enter name"><br>
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
